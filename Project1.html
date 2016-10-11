@@ -269,6 +269,19 @@ var dataArray=[];
 			focus.append("g")
 				.attr("class", "y axis")
 				.call(yAxis);
+				
+	focus.append("text") 
+   //.attr("transform", "rotate(-90)")
+        .attr("x",78)
+        .attr("y",1)
+        .style("text-anchor", "middle")
+        .text("Unemployment Rate(%)");
+
+	focus.append("text")      // text label for the x axis
+        .attr("x",580 )
+        .attr("y", 550 )
+        .style("text-anchor", "middle")
+        .text("Years");				
   
   
 function graph(state){
@@ -544,7 +557,7 @@ function graph(state){
 						tooltip.attr("x",xValue)
 							.attr("y",yValue)
 							.classed('hidden',false)
-							.text("State"+state+"Year"+Year+"Value"+value);
+							.text(state+","+Year+","+value);
 							
 						
 					
