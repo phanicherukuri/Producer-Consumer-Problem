@@ -16,3 +16,10 @@ Graphs for differnt values are plotted based on the input from the user.
 4.Zoom into Interval:
 The graph is dynamic, it can zoomed on the x-axis for data comparision during smaller time intervals.
 ![ScreenShot](https://github.com/suprajyotsna/Visualization-Visual-Analytics-/blob/master/GraphZoom.png)
+##References:
+CS5331 Visualization & Visual Analytics Course Material
+D3 Tutorials by Scott Murray: http://alignedleft.com/tutorials/d3/
+http://bl.ocks.org/natemiller/7dec148bb6aab897e561
+## Contributors:
+Supra Jyotsna Jampa
+** Project completed under guidance of Professor Dr. Tommy Dang for CS 5331
