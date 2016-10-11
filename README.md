@@ -3,7 +3,7 @@
 This project is interactive time series visualization of Unemployment data of United States during the period of 1976-2016. The data for visualization is taken from the Bureau of Labor Statistics. The visualization provided is an interactive, the user can select a State from the United States of America to view the graphical representation of data.
 The user can zoom into the time interval to view data during specific time intervals. The national unemployment rate and the unemployment rate for all the years are displayed based on the user's choice.
 ##Demonstration:
-[![ScreenShot]https://github.com/suprajyotsna/Visualization-Visual-Analytics-/blob/master/Main.PNG]https://github.com/suprajyotsna/Visualization-Visual-Analytics-/blob/master/Report%20Video.mp4
+https://github.com/suprajyotsna/Visualization-Visual-Analytics-/blob/master/Report%20Video.mp4
 
 ##Main Features:
 1.US Map
