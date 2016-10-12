@@ -73,8 +73,6 @@ path {
 <form>
 <label> All States Rate <input type="checkbox" id="check" name="All State" ></label>
 <label> National Rate <input type="checkbox" id="national" name="National" ></label>
-<label> Year<input type ="text" id="state1" name ="State1"></label>
-<input type ="checkbox" value ="Compare" id = "submit">		
 </form>
 
 <div id="tooltip-container"></div>
@@ -580,39 +578,6 @@ d3.selectAll("#national")
 		
 		});
 
- state1 = document.getElementById("state1").value;
-//var state1 = e.options[e.selectedIndex].value;
-
-//var e1 = document.getElementById("state2");
-//state2 = e1.options[e1.selectedIndex].value;
-
-//var e3 = document.getElementById("year1");
-//year1 = e3.options[e3.selectedIndex].value;
-
-//var e4 = document.getElementById("year2");
-//year2 = e4.options[e4.selectedIndex].value;
-console.log(state1);
-
-		
-d3.selectAll("#submit")
-	.on("click",function(d){
-		
-//		d3.select("#state1",function(d){
-	//		 state1 = state1.value;
-	//	});
-	//	d3.select("#year1",function(d){
-	//		 year1 = year1.value;
-	//	});
-	//	d3.select("#state2",function(d){
-	//		 state2 = state2.value;
-	//	});
-	//	d3.select("#year2",function(d){
-	//		 year2 = year2.value;
-	//	});
-		
-		CompareGraph(state1,year1);
-		CompareGraph(state2,year2);
-	});	
 	
 			  
 d3.selectAll("#check")
