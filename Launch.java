@@ -47,5 +47,6 @@ public class Launch
         }
     }
 	System.out.println("Bug introduced");
+	System.out.println("Bug removed");
     }    
 }
