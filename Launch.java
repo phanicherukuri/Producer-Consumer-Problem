@@ -49,5 +49,6 @@ public class Launch
 	System.out.println("Bug introduced");
 	System.out.println("Bug removed");
 	System.out.println("Bug re-introduced");
+	System.out.println("resolved translation issue");
     }    
 }
