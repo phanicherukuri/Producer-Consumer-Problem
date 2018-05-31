@@ -92,3 +92,7 @@ class DivideCal
         return result;
     }
  }
+
+class phani
+{
+}
