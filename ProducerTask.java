@@ -53,5 +53,7 @@ public class ProducerTask extends Thread
             }      /* catch (InterruptedException ex) {
                     Logger.getLogger(ProducerTask.class.getName()).log(Level.SEVERE, null, ex);
                 }*/
+
+	System.out.println("testing the stash command");
   }
 }

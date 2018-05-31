@@ -45,6 +45,7 @@ public class MsgBufandRes {
         //Store computed values 
         responseBufferFull = true;
         //Loop in send() brakes
+	System.out.println("Stash 2");
     }
 }
 
