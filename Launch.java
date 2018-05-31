@@ -46,5 +46,6 @@ public class Launch
             Logger.getLogger(Launch.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+	System.out.println("Bug introduced");
     }    
 }
