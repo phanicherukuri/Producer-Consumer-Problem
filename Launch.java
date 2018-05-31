@@ -50,5 +50,6 @@ public class Launch
 	System.out.println("Bug removed");
 	System.out.println("Bug re-introduced");
 	System.out.println("resolved translation issue");
+	System.out.println("resolved threading issue");
     }    
 }
